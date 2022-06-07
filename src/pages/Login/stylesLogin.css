@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(72, 104, 218, 0.6), rgba(255, 221, 0, 0.61));
+  font-family: Amiko;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+  font-family: Amiko;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 50px;
+  border: 0;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  flex: 1;
+  background-color: black;
+  height: 8vh;
+}
+
+.pages-link {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  font-family: Amiko;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.51) 100%
+  );
+  width: 50vh;
+  border-radius: 50px;
+  padding: 20px;
+  margin-top: 10vh;
+}
+
+.login-container .email-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-container input {
+  margin-top: -1vh;
+  background-color: #fff;
+  border: 0;
+  border-radius: 10px;
+  height: 4.3vh;
+}
+
+.login-container .links {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  justify-content: space-around;
+  width: 100%;
+}

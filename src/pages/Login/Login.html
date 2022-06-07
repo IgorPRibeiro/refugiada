@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./stylesLogin.css" />
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Inter:wght@300;400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <button type="button" style="background-color: black">
+        <img
+          src="../../../assets/View headline@1x.png"
+          style="background-color: black"
+        />
+      </button>
+    </nav>
+
+    <div class="pages-link">
+      <i href="../Home/Home.html">Home > </i>
+      <i style="font-weight: bold; margin-left: 5px">Login</i>
+    </div>
+
+    <div class="login-container">
+      <h1>Login</h1>
+      <div class="email-container">
+        <h3>E-mail</h3>
+        <input type="email" name="email" id="email" />
+        <h3>Senha</h3>
+        <input type="password" name="senha" id="senha" />
+      </div>
+      <div class="links">
+        <i>Esqueceu a Senha?</i>
+        <a href="../Cadastro/Cadastro.html">Criar Conta</a>
+      </div>
+      <button type="submit" onclick="login()"><p>ENTRAR</p></button>
+    </div>
+  </body>
+  <script src="./login.js"></script>
+</html>

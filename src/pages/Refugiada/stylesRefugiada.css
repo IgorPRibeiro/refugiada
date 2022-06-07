@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Amiko;
+  background-color: #c9c7c7;
+}
+
+i {
+  font-style: normal;
+  font-family: Amiko;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 50px;
+  border: 0;
+  padding: 0px 20px 0px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  flex: 1;
+  background-color: black;
+  height: 8vh;
+}
+
+.sub-header {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.name-site {
+  display: flex;
+  width: 20%;
+  flex-direction: row;
+  justify-content: baseline;
+  padding: 10px;
+  border-right: 1.5px black solid;
+}
+
+.name-site h1 {
+  background: linear-gradient(to right, #4d30be, #5c5296, #e9c92e, #cdb900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 20px;
+}
+
+.donation {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: end;
+  align-items: center;
+  align-content: center;
+}
+
+.donation .button-donation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.donation .button-donation button {
+  background-color: #ffdf00;
+  padding: 0px 30px 0px 30px;
+  font-weight: bold;
+}
+
+.donation .button-donation h3 {
+  background-color: #4868da;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.in-home {
+  margin-top: 10vh;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-home-container {
+  margin-top: 10vh;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-home-container .acolhedoras {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button .card-acolhedora {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-acolhedora {
+  margin-top: 10vh;
+  background-color: white;
+  border-radius: 8px;
+  padding: 28px 41px 28px 41px;
+}
+
+.content-acolhedora {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 389px;
+  margin-top: 2vh;
+}
+
+.content-acolhedora h3 {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  height: 8vh;
+  margin-top: 8vh;
+  align-items: center;
+  padding-left: 10px;
+}
+
+footer i {
+  color: white;
+  margin-right: 10px;
+  font-style: normal;
+}

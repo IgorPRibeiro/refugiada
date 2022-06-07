@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(72, 104, 218, 0.6), rgba(255, 221, 0, 0.61));
+  font-family: Amiko;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  font-family: Amiko;
+}
+
+h1 {
+  font-family: Amiko;
+}
+
+i {
+  font-style: normal;
+  font-family: Amiko;
+  cursor: pointer;
+}
+
+button {
+  border: 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  flex: 1;
+  background-color: black;
+  height: 8vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.buttons button {
+  padding: 0px 40px 0px 40px;
+  margin: 0px;
+  border-radius: 16px;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  height: 8vh;
+  margin-top: 8vh;
+  align-items: center;
+  padding-left: 10px;
+}
+
+footer i {
+  color: white;
+  margin-right: 10px;
+  font-style: normal;
+}
