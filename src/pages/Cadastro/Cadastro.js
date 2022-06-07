@@ -6,7 +6,7 @@ function cadastrar() {
   let acolher = document.getElementById("acolher").checked;
   let val;
   let obj;
-  console.log("aq");
+
   if (refugiada) {
     val = "R";
   } else if (acolher) {
