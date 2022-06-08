@@ -24,5 +24,5 @@ function cadastrar() {
   user.push(obj);
 
   localStorage.setItem("user", JSON.stringify(user));
-  window.location.href = "../../../Home.html";
+  window.location.href = "../../../index.html";
 }
