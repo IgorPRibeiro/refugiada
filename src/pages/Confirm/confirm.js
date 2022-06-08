@@ -14,7 +14,7 @@ document.getElementById("text-acolher").innerHTML = text;
 function acolher(params) {
   if (params === "S") {
     alert(`Obrigado. A ${name} entrara em contato por email!`);
-    window.location.href = "../../../Home.html";
+    window.location.href = "../../../index.html";
   } else {
     if (value === "A") {
       window.location.href = "../Refugiada/Refugiada.html";
